@@ -1,0 +1,57 @@
+.article-section {
+  padding-top: 170px;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  align-items: center;
+}
+.image {
+  display: block;
+  width: 90%;
+  height: 500px;
+  border-radius: 25px;
+  border: 1px solid rgb(241, 15, 15);
+  margin: auto;
+  overflow: hidden;
+  transition: background-image 1000ms linear;
+  background-image: url(https://pixabay.com/get/g14a5e12c55ca51e8ea5d6067a23f97f85e2f936b52c3ae14ec355ee42fabb70a7217669c325bbeeb505ea1174a2f690df57ea31fc4f3e6c478134aa8b336d26b1174ce764d51f498a1bd073ae21ec44c_1280.png);
+}
+
+.image:hover,
+.image:focus {
+  background-image: url(https://pixabay.com/get/gc182e28b9889781f8d74c400d5d40fcd6c63247dcdf78d24f45ebbc0e88679e6a91819760f5b3836becad0bddfb081973904870ede76a69c3b39891619668426f68e70d0ed12d4aa6c492a95fbc15128_1280.jpg);
+}
+
+.articleTitle {
+  margin: 50px;
+  font-size: 20px;
+  font-size: 1.9em;
+}
+
+.articleDescription {
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 1.7em;
+  text-align: justify;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  font-family: $secondary-font;
+  font-size: 1.5em;
+  background-color: $third-color;
+  border-color: $main-color;
+  border-radius: 5px;
+  color: $main-color;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: $font-color;
+  transition: all 5ms linear;
+}

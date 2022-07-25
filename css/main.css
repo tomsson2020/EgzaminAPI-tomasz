@@ -1,0 +1,120 @@
+header {
+  height: 100px;
+  box-shadow: 0px 26px 24px -20px rgba(235, 233, 231, 0.842);
+}
+
+.maintitle {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 16px;
+  background-color: #6bff08;
+  gap: 60px;
+  padding-left: 70px;
+}
+
+.navigation {
+  margin-left: auto;
+  margin-right: 80px;
+}
+
+.menu {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  gap: 40px;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: rgb(230, 22, 22);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(194, 183, 204);
+  margin: 0 auto;
+  background: #481fdf;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.article-section {
+  padding-top: 170px;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.image {
+  display: block;
+  width: 90%;
+  height: 500px;
+  border-radius: 25px;
+  border: 1px solid rgb(241, 15, 15);
+  margin: auto;
+  overflow: hidden;
+  transition: background-image 1000ms linear;
+  background-image: url(https://pixabay.com/get/g14a5e12c55ca51e8ea5d6067a23f97f85e2f936b52c3ae14ec355ee42fabb70a7217669c325bbeeb505ea1174a2f690df57ea31fc4f3e6c478134aa8b336d26b1174ce764d51f498a1bd073ae21ec44c_1280.png);
+}
+
+.image:hover,
+.image:focus {
+  background-image: url(https://pixabay.com/get/gc182e28b9889781f8d74c400d5d40fcd6c63247dcdf78d24f45ebbc0e88679e6a91819760f5b3836becad0bddfb081973904870ede76a69c3b39891619668426f68e70d0ed12d4aa6c492a95fbc15128_1280.jpg);
+}
+
+.articleTitle {
+  margin: 50px;
+  font-size: 20px;
+  font-size: 1.9em;
+}
+
+.articleDescription {
+  font-family: "Varta";
+  font-weight: 400;
+  font-size: 1.7em;
+  text-align: justify;
+  padding: 30px;
+}
+
+.btn {
+  margin-top: 10px;
+ 
+  width: 250px;
+  height: 70px;
+  font-family: "Varta";
+  font-size: 1.5em;
+  background-color: #3d12da;
+  border-color: #fff;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #429910;
+  transition: all 5ms linear;
+}/*# sourceMappingURL=main.css.map */

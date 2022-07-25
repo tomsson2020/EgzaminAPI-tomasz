@@ -1,0 +1,28 @@
+header {
+    height: 100px;
+    box-shadow: 0px 26px 24px -20px rgba(235, 233, 231, 0.842);
+  }
+  
+  .maintitle {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    background-color: #6bff08;
+    gap: 60px;
+    padding-left: 70px;
+  }
+  
+  .navigation {
+    margin-left: auto;
+    margin-right: 80px;
+  }
+  
+  .menu {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    gap: 40px;
+  }
